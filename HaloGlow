@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Halo Glow Esthetics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #f7a1c4, #fbc2d8);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      margin: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .price-list {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #ff69b4;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #ff4fa3;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Halo Glow Esthetics</h1>
+  <p>✨ Glow from the inside out ✨</p>
+</header>
+
+<div class="container">
+
+  <h2>Price List</h2>
+
+  <div class="section">
+    <h3>Waxing</h3>
+    <div class="price-list"><span>Full Leg (each)</span><span>$65</span></div>
+    <div class="price-list"><span>Half Leg (each)</span><span>$45</span></div>
+    <div class="price-list"><span>Upper Lip</span><span>$10</span></div>
+    <div class="price-list"><span>Eyebrows</span><span>$15</span></div>
+    <div class="price-list"><span>Underarms</span><span>$20</span></div>
+  </div>
+
+  <div class="section">
+    <h3>Facials</h3>
+    <div class="price-list"><span>Express Facial</span><span>$55</span></div>
+    <div class="price-list"><span>Deep Cleansing</span><span>$85</span></div>
+    <div class="price-list"><span>Dermaplane Facial</span><span>$95</span></div>
+    <div class="price-list"><span>Microneedling</span><span>$185</span></div>
+    <div class="price-list"><span>Custom Facial</span><span>$105</span></div>
+  </div>
+
+  <div class="section">
+    <h3>Lash Extensions</h3>
+    <div class="price-list"><span>Classic</span><span>$85</span></div>
+    <div class="price-list"><span>Fibra Techno</span><span>$95</span></div>
+    <div class="price-list"><span>Volume & Hybrid</span><span>$105</span></div>
+    <div class="price-list"><span>Removal</span><span>$15</span></div>
+  </div>
+
+  <div class="section">
+    <h3>Lash Fills</h3>
+    <p><strong>Classic:</strong> 1 week $55 | 2 weeks $65 | 3 weeks $75</p>
+    <p><strong>Fibra Techno:</strong> 1 week $65 | 2 weeks $75 | 3 weeks $85</p>
+    <p><strong>Volume/Hybrid:</strong> 1 week $75 | 2 weeks $85 | 3 weeks $95</p>
+  </div>
+
+  <div style="text-align:center;">
+    <a href="#" class="btn">Book Appointment</a>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>© 2026 Halo Glow Esthetics</p>
+</div>
+
+</body>
+</html>
